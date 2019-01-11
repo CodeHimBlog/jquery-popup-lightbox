@@ -1,0 +1,4 @@
+* text=auto
+*.css linguist-vendored
+*.html linguist-vendored
+index.html export-ignore
