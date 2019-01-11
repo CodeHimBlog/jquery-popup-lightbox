@@ -1,0 +1,125 @@
+<DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1 "/>
+      <meta name="description" content="Free jQuery and CSS3 window popup lightbox to show web page images in fancy way. Easy to use and fast." />
+      <title>Create jQuery and CSS Popup Image Lightbox </title>
+      <!--jQuery-->
+      <script src="../js/jquery.min.js"></script>
+      <!--Font Awesome-->
+      <link href="../css/font-awesome.min.css" rel="stylesheet" />
+      <!--Animate CSS-->
+      <link href="../css/animate.css" rel="stylesheet" />
+      <!--Popup Lightbox Js-->
+      <script src="js/jquery.popup.lightbox.js"></script>
+      <!--Popup Lightbox CSS-->
+      <link href="css/popup-lightbox.css" rel="stylesheet" />
+      <script>
+         $(document).ready(function(){
+         
+         $(".img-container").popupLightbox();
+         
+         
+         });
+      </script>
+   </head>
+   <body>
+      <!--Introduction and Demo Only -->
+      <header class="intro">
+         <h1>
+            jQuery and CSS Popup Image Lightbox 
+         </h1>
+         <p>
+            A simple and clean popup window image lightbox based on css and jQuery.
+            <br />
+            <br />
+            <b> Written in:</b><i> HTML, CSS, JS</i><br>
+            <b> Frameworks: </b> <i>  jQuery 3.3.1 &amp; Font Awesome, Animate CSS. </i>
+         </p>
+         <div class="action">
+            <a class="btn github" href="https://github.com/CodeHimBlog/jquery-jside-menu"> Fork on GiHub </a>
+            <a class="btn down" href="https://github.com/CodeHimBlog/jquery-jside-menu/archive/master.zip">Download </a>
+         </div>
+      </header>
+      <main>
+         <article>
+            <h2> <small> Popup Lightbox</small> Main Features</h2>
+            <ul>
+               <li> Simple, clean, light weight and fast.</li>
+               <li> Responsive and attractive design </li>
+               <li> Detect next and previous images.</li>
+               <li> Show status (numbering) for each image.</li>
+               <li> Popup window show the caption of the image detected from alt text.</li>
+               <li> Animate CSS animations supported. </li>
+               <li> Font Awesome Icons for lightbox.</li>
+            </ul>
+            <h2> jQuery Lightbox Popup Window Example</h2>
+            <p> Select any image to view the lightbox Popup window. </p>
+            <div class="img-container">
+               <img src="images/jquery-lightbox-image2.jpg" alt="lightbox image 2" />
+               <img src="images/jquery-lightbox-image3.jpg" alt="lightbox image 3"/>
+               <img src="images/jquery-lightbox-image1.jpg" alt="Effel Tower"/>
+               <img src="images/jquery-lightbox-image4.jpg" alt="lightbox image 4" />
+            </div>
+            <div style="margin: 0 10px 10px 10px;">
+               <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+               <ins class="adsbygoogle"
+                  style="display:block; text-align:center;"
+                  data-ad-layout="in-article"
+                  data-ad-format="fluid"
+                  data-ad-client="ca-pub-7089100907045419"
+                  data-ad-slot="7782420780"></ins>
+               <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+               </script>
+            </div>
+            <h2> How to use Popup Lightbox</h2>
+            <p>
+               The popup lightbox is very easy to use in your web projects. The main purpose to develop this lightbox is show images in easy and simple way.  
+               <br>
+               There is no tough job to get it working. Just follow the step by step guide to done. 
+            </p>
+            <p>1. Include the popup lightbox javascript and css file into your web project. </p>
+            <pre class="prettyprint lang-html">
+&lt;!--Popup Lightbox Js--&gt;
+&lt;script src="js/jquery.popup.lightbox.js"&gt;&lt;/script&gt;
+
+&lt;!--Popup Lightbox CSS--&gt;
+&lt;link href="css/popup-lightbox.css" rel="stylesheet" /&gt;
+
+</pre>
+            <p>
+               2. Create a image container, whose images should be shown in the popup  lightbox. (Optional if you are going to create a gallery). 
+            </p>
+            <pre class="prettyprint lang-html">
+&lt;div class=&quot;img-container&quot;&gt;
+&lt;img src=&quot;images/jquery-lightbox-image2.jpg&quot; alt=&quot;lightbox image 2&quot; /&gt;
+&lt;img src=&quot;images/jquery-lightbox-image3.jpg&quot; alt=&quot;lightbox image 3&quot;/&gt;
+&lt;img src=&quot;images/jquery-lightbox-image1.jpg&quot; alt=&quot;Effel Tower&quot;/&gt;
+&lt;img src=&quot;images/jquery-lightbox-image4.jpg&quot; alt=&quot;lightbox image 4&quot; /&gt;
+&lt;/div&gt;
+</pre>
+            <p> 3. Now, initialize the "popupLightbox()" in jQuery document ready function with the selector whose images will be show. </p>
+            <pre class="prettyprint lang-js">
+$(document).ready(function(){
+
+$(".img-container").popupLightbox();
+
+}); 
+</pre>
+            <p> 4. Now you have done! no need to build HTML or any extra tag. It will be automatically done by popup lightbox plugin. </p>
+            <p>
+               <b>Note:</b> You can also call the plugin with body selector to show all body images. Similarly, you can use it to show article images. <br>
+               If you have any question, suggestion or help, you can contact me via Facebook. <br />
+               <a href="https://www.facebook.com/codehimOffcial">Visit My Facebook. </a>
+            </p>
+         </article>
+      </main>
+      <!--Demo Only Files-->
+      <link href="docs/demo.css" rel="stylesheet" />
+      <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"> </script> 
+      <footer class="credit">
+         Coded with <span title="Coffee"></span> by Asif Mughal &copy; 2019 - <a href="https://www.codehim.com" rel="dofollow" title="Awesome Web Projects and Tutorials" target="_blank"> Codehim.com </a>
+      </footer>
+   </body>
+</html>
